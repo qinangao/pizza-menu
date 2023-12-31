@@ -1,20 +1,15 @@
 import React from "react";
-
-function Pizza() {
-  return <h2>Pizza</h2>;
-}
+import Pizzas from "./Pizzas";
 
 const Menu = () => {
   return (
-    <div>
+    <div className="menu">
       <h2>Our Menu</h2>
       <p>
         Authentic Italian cuisine. 6 creative dishes to choose from. All from
         our stone oven. All organic, all delicious
       </p>
-      <Pizza />
-      <Pizza />
-      <Pizza />
+      <Pizzas />
     </div>
   );
 };

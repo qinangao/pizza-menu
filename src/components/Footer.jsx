@@ -11,7 +11,7 @@ const Footer = () => {
   //   }
 
   return (
-    <footer>
+    <footer className="footer ">
       {new Date().toLocaleTimeString()} We are currently{" "}
       {isOpen ? "open" : "closed"}.
     </footer>
