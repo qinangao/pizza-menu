@@ -4,11 +4,11 @@ import pizzaData from "../data";
 
 function Pizzas() {
   return (
-    <div className="pizzas">
+    <ul className="pizzas">
       {pizzaData.map((pizza) => (
         <Pizza pizzaObj={pizza} />
       ))}
-    </div>
+    </ul>
   );
 }
 
